@@ -5,7 +5,6 @@
     font-family: 'Work Sans', sans-serif;
 
 }
-
 .main-container {
     max-width: 1600px;
     margin: 0 auto;
@@ -13,38 +12,30 @@
 main{
     max-width: 1140px;
 }
+/* header area */
 .header-area {
     background-image: url("../images/banner/banner1.png");
     background-size: cover;
     background-repeat: no-repeat;
     
 }
-
-/* body{
-    max-width: 1600px;
-    margin: 0 auto;
-} */
-
 .header-content {
     width: 1140px;
     text-align: right;
     padding-top: 216px;
     padding-bottom: 160px;
 }
-
 .content-title {
     font-weight: 700;
     font-size: 65px;
     line-height: 76px;
 }
-
 .content-description {
     font-size: 16px;
     line-height: 26px;
     color: #444343;
     margin: 20px 0;
 }
-
 .header-btn {
     padding: 9px 16px;
     background-color: rgb(241 105 7);
@@ -53,48 +44,43 @@ main{
     color: #fff;
     border-radius: 5px;
 }
-
+/* failures-section */
 .failures-section {
     margin-top: 80px;
 }
-
 .failures {
     display: flex;
     align-items: center;
 }
-
-.failures-img {}
-
 .failures-detail {
     padding-left: 100px;
 }
-
 .failures-title {
     font-weight: 700;
     font-size: 40px;
     line-height: 47px;
 }
-
 .failures-description {
     font-size: 16px;
     line-height: 26px;
     color: #444343;
 }
-
 .failures-list {
     line-height: 26px;
     color: #444343;
 }
-
+.failures-list li {
+    list-style: none;
+    padding: 5px;
+}
+.failures-list li i {
+    color: green;
+    padding: 9px 9px;
+}
+/* plans-section */
 .plans-section {
     margin-top: 80px;
 }
-
-.plans {
-    display: flex;
-    justify-content: space-around;
-}
-
 .plans-title {
     font-weight: 700;
     font-size: 40px;
@@ -103,11 +89,11 @@ main{
     margin-bottom: 50px;
     text-align: center;
 }
-.work-img {
-    border-radius: 3px;
-    border: 2px solid #f38708;
-    padding: 2px;
+.plans {
+    display: flex;
+    justify-content: space-around;
 }
+/* work-section */
 .work-section {
     margin-top: 300px;
 }
@@ -121,22 +107,27 @@ main{
     justify-content: space-evenly;
     gap: 76px;
 }
+.work-img {
+    border-radius: 3px;
+    border: 2px solid #f38708;
+    padding: 2px;
+}
+
 .work-title {
     font-size: 30px;
     margin-bottom: 45px;
 }
+/* positive-section  */
 .positive-section {
     margin-top: 100px;
     padding: 60px 0;
 }
-
 .positive {
     background: linear-gradient(90deg, #F15B22 0%, rgba(241, 91, 34, 0) 100%), url("../images/watch.png");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
 }
-
 .positive-title {
     font-weight: 700;
     font-size: 40px;
@@ -144,7 +135,6 @@ main{
     color: #FFFFFF;
     padding: 38px 0 0 46px;
 }
-
 .good-btn {
     text-decoration: none;
     padding: 7px 11px;
@@ -153,7 +143,7 @@ main{
     border-radius: 3px;
     display: inline-block;
 }
-
+/* footer */
 .future-section {
     background: #151414;
     margin-top: 100px;
@@ -161,30 +151,20 @@ main{
     padding-top: 100px;
     padding-bottom: 100px;
 }
-
-.failures-list li {
-    list-style: none;
-    padding: 5px;
-}
-.failures-list li i {
-    color: green;
-    padding: 9px 9px;
-}
 .future-contact {
-   
+    margin: 20px 0;
     color: #fff;
-}
-
-
-.socialmedia li {
-    list-style: none;
-    margin: 0;
 }
 .socialmedia {
     display: flex;
     margin-top: 30px;
     padding-left: 0;
 }
+.socialmedia li {
+    list-style: none;
+    margin: 0;
+}
+
 .socialmedia li i {
     font-size: 35px;
     color: #fff;
@@ -193,9 +173,7 @@ main{
     border-radius: 50%;
     padding: 8px;
 }
-.future-content {
-    margin: 20px 0;
-}
+
 .Subscribe h2 {
     color: #fff;
     font-size: 35px;
