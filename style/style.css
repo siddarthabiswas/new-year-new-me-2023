@@ -155,11 +155,11 @@ main{
 }
 
 .future-section {
-
     background: #151414;
     margin-top: 100px;
     display: flex;
     padding-top: 100px;
+    padding-bottom: 100px;
 }
 
 .failures-list li {
@@ -175,19 +175,41 @@ main{
     color: #fff;
 }
 
-.Subscribe {
 
-
-    color: #fff;
-}
 .socialmedia li {
     list-style: none;
+    margin: 0;
 }
 .socialmedia {
     display: flex;
+    margin-top: 30px;
+    padding-left: 0;
 }
 .socialmedia li i {
-    font-size: 26px;
+    font-size: 35px;
     color: #fff;
     background-color: blue;
+    margin-right: 10px;
+    border-radius: 50%;
+    padding: 8px;
+}
+.future-content {
+    margin: 20px 0;
+}
+.Subscribe h2 {
+    color: #fff;
+    font-size: 35px;
+}
+.Subscribe input {
+    padding: 10px 36px;
+    border-radius: 5px;
+    border: none;
+    background: cornsilk;
+    margin-top: 20px;
+}
+.Subscribe button {
+    padding: 10px 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    margin-top: 10px;
 }
