@@ -1,0 +1,92 @@
+* {
+    margin: 0;
+    font-family: 'Inter', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Work Sans', sans-serif;
+
+}
+.header-area {
+    max-width: 1600px;
+    margin: 0 auto;
+    background-image: url("../images/banner/banner1.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 808px;
+}
+main{
+    max-width: 1600px;
+    margin: 0 auto;
+}
+.header-content {
+    top: 216px;
+    position: absolute;
+    left: 894px;
+}
+.content-title{
+    font-weight: 700;
+    font-size: 65px;
+    line-height: 76px;
+    text-align: right;
+}
+.content-description{
+    font-size: 16px;
+    line-height: 26px;
+    text-align: right;
+    color: #444343;
+}
+.header-btn {
+    position: absolute;
+    left: 333px;
+    top: 337px;
+    padding: 3px 40px;
+    background-color: rgb(241 105 7);
+    font-size: 19px;
+}
+.failures-img {
+    position: absolute;
+    width: 500px;
+    height: 628px;
+    top: 1000px;
+    left: 300px;
+}
+.failures-detail {
+    left: 860px;
+    top: 1200px;
+    position: absolute;
+    width: 450px;
+    height: 400px;
+}
+.failures-title{
+    font-weight: 700;
+font-size: 40px;
+line-height: 47px;
+}
+.failures-description {
+    font-size: 16px;
+    line-height: 26px;
+    color: #444343;
+}
+.failures-list {
+    line-height: 26px;
+    color: #444343;
+}
+.plans-section {
+    position: absolute;
+    width: 1141px;
+    height: 299.96px;
+    left: 431px;
+    top: 1792.3px;
+    text-align: center;
+}
+.plans {
+    display: flex;
+    justify-content: space-around;
+}
+.plans-title {
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 47px;
+    color: #151414;
+    margin-bottom: 50px;
+}
